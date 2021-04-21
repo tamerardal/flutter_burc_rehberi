@@ -1,7 +1,7 @@
 class Strings {
-  static const String APP_NAME = "Burç Rehberi";
+  static const String APP_NAME = "Burçlar";
 
-  static const List<String> BURC_ADLARI = [
+  static const List<String> HOROSCOPE_NAMES = [
     "Koc",
     "Boga",
     "Ikizler",
@@ -16,7 +16,7 @@ class Strings {
     "Balik"
   ];
 
-  static const List<String> BURC_TARIHLERI = [
+  static const List<String> HOROSCOPE_DATES = [
     "21 Mart - 20 Nisan",
     "21 Nisan - 21 Mayıs",
     "22 Mayıs - 22 Haziran",
@@ -31,7 +31,7 @@ class Strings {
     "20 Subat - 20 Mart"
   ];
 
-  static const List<String> BURC_GENEL_OZELLIKLERI = [
+  static const List<String> HOROSCOPES_DETAIL = [
     "\tGenel Özellikler\n\n"
         "\tYönetici yıldızınız: Mars\n\n"
         "\tGrubunuz: Ateş\n\n"
