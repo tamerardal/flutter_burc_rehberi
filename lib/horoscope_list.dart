@@ -51,6 +51,7 @@ class HoroscopeList extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListTile(
+          onTap: () => Navigator.pushNamed(context, "/horoscopeDetail/$index"),
           leading: Image.asset("images/" + addedListHoroscope.smallPic,
               width: 64, height: 64),
           title: Text(
