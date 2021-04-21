@@ -3,7 +3,7 @@ import 'package:flutter_burc_rehberi/models/horoscope.dart';
 import 'package:flutter_burc_rehberi/utils/content.dart';
 
 class HoroscopeList extends StatelessWidget {
-  List<Horoscope> allHoros;
+  static List<Horoscope> allHoros;
   @override
   Widget build(BuildContext context) {
     allHoros = prepareDataSource();
