@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_burc_rehberi/horoscope_list.dart';
+
+import 'horoscope_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,6 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Burç Rehberi",
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
